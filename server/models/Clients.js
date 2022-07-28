@@ -1,4 +1,5 @@
 const mongoose = require("mongoose")
+const Projects = require("./Projects")
 
 const ClientSchema = new mongoose.Schema ({
     name: {
@@ -13,3 +14,6 @@ const ClientSchema = new mongoose.Schema ({
 })
 
 module.exports = mongoose.model("Client", ClientSchema)
+
+
+
